@@ -1,0 +1,33 @@
+.main-content, .main-content .text-formatted, .cke_editable_themed, .paragraph--type--side-by-side .text-formatted {
+  width: 75%;
+  margin-left:12.5%;
+  margin-right:12.5%;
+}
+  
+.top-button {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the left */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 2px solid #fff;
+  outline: none; /* Remove outline */
+  background-color: #fff; /*Fallback background color*/
+  color: #3654A5; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  font-family:  acumin-pro-semi-condensed, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top-button::before {
+  content: "▲ ";
+}
+
+.top-button:hover {
+  box-shadow: 5px 5px 10px gray;
+}
+
+
+
